@@ -7,8 +7,8 @@ now = dt.datetime.now()
 day = now.day
 month = now.month
 
-MY_EMAIL = 'dengerskif3@gmail.com'
-PASSWORD = 'kuxar9152'
+MY_EMAIL = 'mail@gmail.com'
+PASSWORD = 'passwor'
 
 data = pandas.read_csv("birthdays.csv")
 data_dict = data.to_dict('records')
