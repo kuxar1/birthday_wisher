@@ -28,6 +28,6 @@ with smtplib.SMTP('smtp.gmail.com') as connection:
     connection.login(user=MY_EMAIL, password=PASSWORD)
     connection.sendmail(
         from_addr=MY_EMAIL,
-        to_addrs='dengerskif2@gmail.com',
+        to_addrs='mail@gmail.com',
         msg=f'Subject:Happy Birthday \n\n {letter}'
     )
